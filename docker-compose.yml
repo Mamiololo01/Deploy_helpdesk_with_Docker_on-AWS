@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    volumes:
+      - ./docker-data/db:/var/lib/postgresql/data
+    environment: 
+      - POSTGRES_USER=peppermint
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_DB=peppermint
+
+  client:
+    container_name: peppermint
+    image: pepperlabs/peppermint:latest
+    ports:
+      - 5000:5000
+    restart: on-failure
+    depends_on:
+      - postgres
+    environment:
+      - PORT=5000
+      - DB_USERNAME=peppermint
+      - DB_PASSWORD=1234
+      - DB_HOST=postgres
+      - BASE_URL=http://http://ec2-18-224-29-122.us-east-2.compute.amazonaws.com:5000/
