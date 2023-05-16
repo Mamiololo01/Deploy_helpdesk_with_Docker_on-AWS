@@ -118,6 +118,7 @@ If this is your first time pulling down the docker image, it might take a first 
 
 <img width="732" alt="Screenshot 2023-05-16 at 08 46 53" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/3832454d-5f04-40e0-9a97-f97ff36414ce">
 
+<img width="727" alt="Screenshot 2023-05-16 at 08 47 46" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/2cda4c3a-285a-4f87-84f5-706e0265f712">
 
 Once completed, you should get a similar confirmation in your CLI:
 
@@ -127,6 +128,7 @@ Next, we run docker ps to retrieve the port # to test our new help desk in the b
 sudo docker ps
 We can see our Help Desk is running on port :5000, which we configured in our docker-compose.yml file.
 
+<img width="716" alt="Screenshot 2023-05-16 at 09 07 52" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/1b72ca71-b20b-4e96-8ebe-c1bb1cbc1952">
 
 If you were running this locally on your machine, you could type “localhost:5000” in your browser to check to see if your help desk is running.
 
@@ -149,3 +151,6 @@ Once logged in you can begin configuring your Help Desk as desired and share it 
 
 
 Congratulations! You just launched a peppermint help desk on a docker container using AWS!
+
+
+<img width="1257" alt="Screenshot 2023-05-16 at 09 08 19" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/1438ac23-57b2-4b7d-96c5-70e7ee394541">
