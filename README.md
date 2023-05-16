@@ -102,16 +102,20 @@ Starting in our home directory, we need to make a peppermint directory and navig
 mkdir peppermint
 cd peppermint
 
+<img width="555" alt="Screenshot 2023-05-16 at 08 41 32" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/458d3c40-7280-426d-8be6-4216df304eda">
+
 Now we need to make our docker-compose.yml file which will contain the configuration for installing our Peppermint Help Desk using docker containers.
 
 nano docker-compose.yml
 And paste the following YAML configuration into the file. I’ve updated it a bit from the Peppermint GitHub to reflect updated versions of Docker.
-
+<img width="661" alt="Screenshot 2023-05-16 at 08 42 11" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/7f927989-6862-495e-a43e-350d2df4095b">
 
 Now we only need to run one command to set up our first Peppermint Help Desk container
 
 sudo docker-compose up -d
 If this is your first time pulling down the docker image, it might take a first minutes.
+
+<img width="732" alt="Screenshot 2023-05-16 at 08 46 53" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/3832454d-5f04-40e0-9a97-f97ff36414ce">
 
 
 Once completed, you should get a similar confirmation in your CLI:
