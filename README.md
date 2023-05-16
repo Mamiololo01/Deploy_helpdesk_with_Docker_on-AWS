@@ -32,6 +32,12 @@ Give your instance a name. Select an OS and other settings as needed. Finally cl
 
 Once launched you will receive a confirmation.
 
+<img width="1066" alt="Screenshot 2023-05-16 at 08 02 36" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/5b891cc9-581e-4d3b-a32b-4601bd5e7969">
+
+<img width="1176" alt="Screenshot 2023-05-16 at 08 06 30" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/e9c942c2-44b3-49e0-bfa3-30ba2062c381">
+
+<img width="1030" alt="Screenshot 2023-05-16 at 08 07 05" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/f6ebd80b-5ccc-49ee-afb0-a28f8b7947ba">
+
 
 Navigate back to your Instance Dashboard, select your newly created instance and click the “Connect” button.
 
