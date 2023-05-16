@@ -24,6 +24,10 @@ Login to your AWS account and navigate to the EC2 instance dashboard. Click “L
 
 Give your instance a name. Select an OS and other settings as needed. Finally click “Launch Instance”.
 
+<img width="1037" alt="Screenshot 2023-05-16 at 08 02 16" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/c126542c-8b2a-4671-981f-3d2004e2c864">
+
+<img width="943" alt="Screenshot 2023-05-16 at 08 02 29" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/6a5622be-d77e-4d2e-9dd4-37004229f204">
+
 
 
 Once launched you will receive a confirmation.
