@@ -57,9 +57,14 @@ Now that we are logged in remotely, we need to update the packages on our machin
 
 sudo apt update
 
+<img width="722" alt="Screenshot 2023-05-16 at 08 34 31" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/f3bdcb60-bc09-479a-9dea-e7f9f789a892">
+
 Next, we need to upgrade our local OS to reflect those updated changes by running sudo apt upgrade. You might be prompted to ‘reset’ your system by the CLI.
 
 sudo apt upgrade
+
+
+<img width="666" alt="Screenshot 2023-05-16 at 08 35 10" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/74a2b372-68fe-4974-be51-996a9ab7cff2">
 
 Now that our Ubuntu packages and systems have been downloaded and installed, we need to install docker and docker compose to be able to run containers on our instance. We start by running sudo apt install docker.io
 
