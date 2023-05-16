@@ -108,6 +108,7 @@ Now we need to make our docker-compose.yml file which will contain the configura
 
 nano docker-compose.yml
 And paste the following YAML configuration into the file. I’ve updated it a bit from the Peppermint GitHub to reflect updated versions of Docker.
+
 <img width="661" alt="Screenshot 2023-05-16 at 08 42 11" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/7f927989-6862-495e-a43e-350d2df4095b">
 
 Now we only need to run one command to set up our first Peppermint Help Desk container
