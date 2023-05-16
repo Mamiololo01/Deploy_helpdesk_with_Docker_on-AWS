@@ -70,15 +70,22 @@ Now that our Ubuntu packages and systems have been downloaded and installed, we 
 
 sudo apt install docker.io
 
+<img width="701" alt="Screenshot 2023-05-16 at 08 38 00" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/8cf01d7f-c851-49ac-af59-375cd8192a84">
+
 Next, we install docker-compose by running sudo apt install docker-compose -y.
 
 sudo apt install docker-compose -y
+
+<img width="707" alt="Screenshot 2023-05-16 at 08 38 40" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/ff8b8c6e-db45-490f-875b-42b7c50c114f">
 
 Now that docker is installed, we can run docker ps to see if any containers are running.
 
 Since we only just installed docker, there should be no containers listed.
 
 sudo docker ps
+
+
+<img width="711" alt="Screenshot 2023-05-16 at 08 39 12" src="https://github.com/Mamiololo01/Deploy_helpdesk_with_Docker_on-AWS/assets/67044030/1428b83e-8f5d-4323-9841-823003a0d9c8">
 
 Now our environment is ready for us to install our help desk.
 
